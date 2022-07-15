@@ -1,0 +1,77 @@
+[
+        {
+            "genre":"Romance",
+            "length":"Short",
+            "title":"from Persuasion, by Jane Austen",
+            "raw text":"Tell me not that I am too late, that such precious feelings are gone forever."
+        },
+        {
+            "genre":"Romance",
+            "length":"Medium",
+            "title":"from Wuthering Heights, by Emily Bronte",
+            "raw text":"If all else perished, and he remained, I should continue to be; and if all else remained, and he were annihilated, the universe would turn to a mighty stranger."
+        },
+        {
+            "genre":"Romance",
+            "length":"Long",
+            "title":"from Pride and Prejudice, by Jane Austen",
+            "raw text":"From the very beginning- from the first moment, I may almost say- of my acquaintance with you, your manners, impressing me with the fullest belief of your arrogance, your conceit, and your selfish disdain for the feelings of others, were such as to form the groundwork of disapprobation on which succeeding events have built so immovable a dislike; and I had not know you a month before I felt that you were the last man in the world whom I could ever be prevailed upon to marry."
+        },
+
+        {
+            "genre":"Fantasy",
+            "length":"Short",
+            "title":"from Harry Potter, by J.K. Rowling",
+            "raw text":"It does not do to dwell on dreams and forget to live."
+        },
+        {
+            "genre":"Fantasy",
+            "length":"Medium",
+            "title":"from The Hobbit by J.R.R. Tolkien",
+            "raw text":"Deep down here by the dark water lived old Gollum, a small slimy creature. I don't know where he came from, nor who or what he was. He was Gollum."
+        },
+        {
+            "genre":"Fantasy",
+            "length":"Long",
+            "title":"from The Master and Margarita, by Mikhail Bulgakov",
+            "raw text":"But would you kindly ponder this question: What would your good do if evil didn't exist, and what would the earth look like if all the shadows disappeared? After all, shadows are cast by things and people. Here is the shadow of my sword. But shadows also come from trees and living beings. Do you want to strip the earth of all trees and living things just because of your fantasy of enjoying naked light? You're stupid."
+        },
+
+        {
+            "genre":"Horror",
+            "length":"Short",
+            "title":"from Frankenstein, by Mary Shelley",
+            "raw text":"Life, although it may only be an accumulation of anguish, is dear to me, and I will defend it."
+        },
+        {
+            "genre":"Horror",
+            "length":"Medium",
+            "title":"from Anonymous on 4chan",
+            "raw text":"The girl doesn't do it and then after a while she goes to sleep. The next morning she wakes up and finds her boyfriend still not there. She gets out to check and man door hand hook car door."
+        },
+        {
+            "genre":"Horror",
+            "length":"Long",
+            "title":"from Carmilla, by J. Sheridan Le Fanu",
+            "raw text":"You will think me cruel, very selfish, but love is always selfish; the more ardent the more selfish. How jealous I am you cannot know. You must come with me, loving me, to death; or else hate me, and still come with me, and hating me through death and after. There is no such word as indifference in my apathetic nature."
+        },
+
+        {
+            "genre":"Skyrim",
+            "length":"Short",
+            "title":"from Whiterun Guard",
+            "raw text":"I used to be an adventurer like you. Then I took an arrow to the knee."
+        },
+        {
+            "genre":"Skyrim",
+            "length":"Medium",
+            "title":"from Purloined Shadows",
+            "raw text":"The witches raised their heads, and screamed, ruining the sanctity of the ceremony, as they charged forward. The crows awoke and burst from the tree in an explosion of feathers and toad-like cries. Nocturnal herself whirled around, affixing the girl with her black eyes."
+        },
+        {
+            "genre":"Skyrim",
+            "length":"Long",
+            "title":"Miraak's Mantra",
+            "raw text":"Here in his shrine that they have forgotten... Here do we toil, that we may remember... By night we reclaim what by day was stolen. Far from ourselves, he grows ever near to us. Our eyes once were blinded; now through him do we see. Our hands once were idle; now through them does he speak. And when the world shall listen, and when the world shall see, and when the world remembers, that world shall cease to be."
+        }
+    ]
