@@ -6,15 +6,15 @@ This project is a locally-hosted typing test based on Python, JavaScript, and HT
 * The user copies the template excerpt with as much speed and accuracy as they can
 * A results table tracks user's results (in error count and completion time) for as many tests as they complete in one session
 
-Header image here
+![SpeedtestPic](https://user-images.githubusercontent.com/69176399/182047583-e2d1ee4e-63bb-49f1-b40c-ceeb8e3f63e1.png)
 
 #### Building a keyboard
 
 The inspiration for this project was a mechanical keyboard that I decided to build for my PC setup this summer. I wanted a keyboard that was satisfying to type on, nice to look at, and that took up less space than my 100% membrane keyboard. I decided on 75% keyboard case, as well as linear switches which tend to have a more consistent and quiet typing experience than their clicky and tactile counterparts. I also lubed the switches and stabilizers with 205g0 lube for smoother and quieter typing.
 
-Picture of lubing setup here
+![LubeMap](https://user-images.githubusercontent.com/69176399/182047587-47d13eeb-5214-4273-939f-6026ec1fc742.png)
 
-During my research into keyboard parts, I found that enthusiasts strongly distinguish between the quality and experience of mechanical and membrane keyboards especially. The [switch and click keyboard blog][1], asserts that mechanical keyboards reduce the number of missed key registers and that, when customized, mechanical keyboards can improve typing speed. Before building my mechanical keyboard, I also noticed a difference in the way I typed on my membrane keyboard and the butterfly keyboard on my Mac laptop.
+During my research into keyboard parts, I found that enthusiasts strongly distinguish between the quality and experience of mechanical and membrane keyboards especially. The [switch and click keyboard blog](https://switchandclick.com/how-to-type-faster/), asserts that mechanical keyboards reduce the number of missed key registers and that, when customized, mechanical keyboards can improve typing speed. Before building my mechanical keyboard, I also noticed a difference in the way I typed on my membrane keyboard and the butterfly keyboard on my Mac laptop.
 I wanted to create a simple, locally-hosted typing test that would allow me to compare the typing speed and number of mistakes made on each type of keyboard.
 
 #### Server-browser interaction
@@ -33,7 +33,3 @@ For my typing test, browser elements coded in HTML include the drop-down menus, 
 * Highlighting errors in red
 * Error analysis that accounts for offset of a few letters
 * More varied template options (currently only one for each length, genre pair)
-
-
-
-[1]:https://switchandclick.com/how-to-type-faster/	“switchandclick.com”
