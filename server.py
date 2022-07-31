@@ -6,6 +6,7 @@ import logging
 import sys
 
 from textselect import * # imports python script to process client msg and choose text
+from compareInput import *
 
 # create websocket handler for each connection websocket
  
@@ -30,13 +31,14 @@ async def websocket_handler(websocket, path):
             (retrieved_text, retrieved_title) = retrieve_text(data_json.get('textlength'), data_json.get('textgenre'))
             print("textselect returned: ", retrieved_text)
             print("textselect title: ", retrieved_title)
+            test_text = str(retrieved_text)
             # Send response to client for selected text and corresponding title
             response = {"TestText":retrieved_text, "Title":retrieved_title}
         
         if "user_input" in data_json:
-            print("received user input: ", data_json.get('user_input'))
+            (num_errors, index_errors) = testCorrections(data_json.get('user_input'), test_text)
             # Send response to client with received user input
-            response = {"Errors":"TBD Returns array of indices", "Time":"TBD Returns time taken"}
+            response = {"NumErrors":num_errors, "ErrorIndices":index_errors}
 
         # Send response to client (hardcoded JSON response for now)
 
@@ -45,6 +47,9 @@ async def websocket_handler(websocket, path):
         logging.info("Sent message to websocket client: %s", reply)
  
 def main():
+
+    # test_text is GLOBAL and shared across multiple users, add user handling to accomodate
+    test_text = None # Declares var to hold retrieved text so that it can be accessed upon user_input
 
     # set up logger to pump logs to console
 
