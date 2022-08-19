@@ -57,19 +57,12 @@
         // Results page update
         var complete_time = new Date();
         var test_time = (complete_time.getTime() - start_time.getTime()) / 1000;
-        if (firstrow_empty == 1) {
-            $('#id-result-length').text($('#id-length option:selected').text());
-            $('#id-result-genre').text($('#id-genre option:selected').text());
-            $('#id-result-errorcount').text(response.NumErrors);
-            $('#id-result-time').text(test_time);
-            firstrow_empty = 0;
-        } else {
-            $('#results > tbody:last-child').append('<tr>')
+        
+        $('#results > tbody:last-child').append('<tr>')
             .append($('<td>').append($('#id-length option:selected').text()))
             .append($('<td>').append($('#id-genre option:selected').text()))
             .append($('<td>').append(response.NumErrors))
             .append($('<td>').append(test_time));
-        }
         
     }
     
